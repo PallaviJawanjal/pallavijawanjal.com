@@ -1,0 +1,20 @@
+.textFont{
+    font-family:$base-font-family, $fallback-font-family;
+    font-size:3.1em;
+    color:#deebd0;
+    letter-spacing:0.02em;
+}
+#aboutmeCol p span{
+    font-size:0.85em;
+}
+#aboutmeWrapper{
+    margin-top:4%;
+    @include backgroundImg(bcgGreen, left top repeat #92bc64); 
+}
+#aboutmeWrapper::before{
+    @include backgroundImg(borders, 0 0 repeat-x);
+    @include beforeAfterPseudoElements(14px,5,8px);
+}
+#aboutmeCol{
+    padding:4% 4% 4% 4%; 
+}

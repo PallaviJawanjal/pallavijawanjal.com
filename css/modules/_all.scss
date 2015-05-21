@@ -1,0 +1,13 @@
+@mixin backgroundImg($path, $position...){
+    background:url('/Users/pallavibhalla/Documents/pallavijawanjal.com/images/#{$path}.png')  $position;
+}
+
+@mixin beforeAfterPseudoElements($height,$zIndex,$bottom){
+    display:block;
+    content:"";
+    position:relative;
+    width:100%;  
+    height:$height;
+    z-index:$zIndex;
+    bottom:$bottom;  
+}

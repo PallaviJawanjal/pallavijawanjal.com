@@ -1,0 +1,225 @@
+body {
+  font-size: 100%;
+  background: url("/Users/pallavibhalla/Documents/pallavijawanjal.com/images/bcgbody.png") left top repeat #fdfdfa; }
+
+#svgLayer_1, #svgLayer_2, #svgLayer_3 {
+  opacity: 0; }
+
+#bodycontentWrapper {
+  opacity: 0; }
+
+#svgNameWrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 25%;
+  text-align: center; }
+
+#headerLine1 {
+  margin-top: 1%;
+  width: 100%; }
+
+#headerLine2 {
+  width: 100%; }
+
+#navWrapper {
+  height: 6.4em; }
+
+#work, #aboutMe, #contact {
+  display: none;
+  font-family: Tangerine, sans-serif;
+  font-size: 4.5em;
+  color: #473D3D; }
+
+#divaboutme {
+  padding: 0px !important; }
+
+#aboutMe {
+  padding-left: 0.45em;
+  padding-right: 0.45em; }
+
+.bcgme {
+  background: url("/Users/pallavibhalla/Documents/pallavijawanjal.com/images/bcgme.png") 0 0 no-repeat;
+  background-size: cover; }
+
+.svgPJheight {
+  height: 50%; }
+
+.svgheaderheight {
+  height: 15%; }
+
+.textFont {
+  font-family: Josefin Sans, sans-serif;
+  font-size: 3.1em;
+  color: #deebd0;
+  letter-spacing: 0.02em; }
+
+#aboutmeCol p span {
+  font-size: 0.85em; }
+
+#aboutmeWrapper {
+  margin-top: 4%;
+  background: url("/Users/pallavibhalla/Documents/pallavijawanjal.com/images/bcgGreen.png") left top repeat #92bc64; }
+
+#aboutmeWrapper::before {
+  background: url("/Users/pallavibhalla/Documents/pallavijawanjal.com/images/borders.png") 0 0 repeat-x;
+  display: block;
+  content: "";
+  position: relative;
+  width: 100%;
+  height: 14px;
+  z-index: 5;
+  bottom: 8px; }
+
+#aboutmeCol {
+  padding: 4% 4% 4% 4%; }
+
+img.active {
+  display: block; }
+
+#renal img, #sentibuzz img, #realflow img {
+  display: none;
+  position: absolute; }
+
+.imgmargin {
+  margin-top: 4%; }
+
+#workWrapper::before {
+  background: url("/Users/pallavibhalla/Documents/pallavijawanjal.com/images/borders.png") 0 -15px repeat-x;
+  display: block;
+  content: "";
+  position: relative;
+  width: 100%;
+  height: 14px;
+  z-index: 5;
+  bottom: 8px; }
+
+#workWrapper::after {
+  background: url("/Users/pallavibhalla/Documents/pallavijawanjal.com/images/borders.png") 0 -32px repeat-x;
+  display: block;
+  content: "";
+  position: relative;
+  width: 100%;
+  height: 15px;
+  z-index: 5;
+  bottom: -8px; }
+
+#workWrapper {
+  background: url("/Users/pallavibhalla/Documents/pallavijawanjal.com/images/bcgblue.png") left top repeat #0090a3; }
+
+#workheader {
+  margin-top: 2%; }
+
+#workheader {
+  font-family: Oswald, sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 3.3em !important;
+  color: #f7f5e7; }
+
+#colwork {
+  padding-bottom: 8%; }
+
+#projects {
+  margin-top: 5%; }
+
+.prjtitle {
+  position: absolute;
+  z-index: 11;
+  top: 0px;
+  width: 100%;
+  height: 280px;
+  display: none; }
+
+.bcgred {
+  background-color: rgba(221, 30, 38, 0.7); }
+
+.bcgYellow {
+  background-color: rgba(240, 227, 24, 0.7); }
+
+.prjtitle h3 {
+  margin-top: 20%;
+  color: white; }
+
+.prjEntry {
+  max-width: 350px;
+  background-color: #ffffff;
+  position: relative;
+  margin-top: 5%;
+  height: 280px;
+  overflow: hidden; }
+
+.modal-header {
+  border-bottom: 1px solid #666 !important; }
+
+.modal-header h2 {
+  margin-top: 6%; }
+
+.modal-body p {
+  font-size: 1.65em;
+  color: #687788; }
+
+.modal-body {
+  margin-bottom: 6%; }
+
+.modal-body p {
+  margin-top: 0.5em !important; }
+
+.youtube {
+  width: 500px;
+  height: 281px; }
+
+#footerWrapper {
+  margin-top: 6%;
+  margin-bottom: 3%; }
+
+#copyrighttext {
+  margin-top: 6%;
+  border-top: 1px solid #abb5cc;
+  font-size: 1.6em; }
+
+#copyrighttext a, p {
+  padding-top: 1%; }
+
+#totop {
+  background: url("/Users/pallavibhalla/Documents/pallavijawanjal.com/images/bcgyellow.png") 0 0;
+  background-size: cover;
+  text-decoration: none; }
+
+#copyrighttext a {
+  font-family: Josefin Sans, sans-serif;
+  font-size: 1.3em; }
+
+#copyrighttext p {
+  font-family: Georgia sans-serif;
+  color: rgba(69, 54, 37, 0.6);
+  font-size: 0.7em;
+  font-style: italic;
+  letter-spacing: 0.2em; }
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 85%; } }
+/* iphone Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  #work, #aboutMe, #contact {
+    font-size: 3em; }
+
+  #aboutMe {
+    padding-left: 0em !important;
+    padding-right: 0em !important; }
+
+  #navWrapper {
+    height: 5.8em; }
+
+  #svgNameWrapper {
+    width: 50%; }
+
+  .prjEntry, .prjtitle {
+    height: 200px; }
+
+  .youtube {
+    width: 200px;
+    height: auto; } }
+
+/*# sourceMappingURL=style.css.map */

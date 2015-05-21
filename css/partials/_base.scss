@@ -1,0 +1,14 @@
+$base-font-family:Josefin Sans;
+$fallback-font-family:sans-serif;
+$Oswald-font-family:Oswald;
+$Georgia-font-family:Georgia;
+$Tangerine-font-family:Tangerine;
+
+
+
+@import "/Users/pallavibhalla/Documents/pallavijawanjal.com/css/modules/all";
+
+body{
+    font-size:100%;
+    @include backgroundImg(bcgbody,left top repeat #fdfdfa);
+}

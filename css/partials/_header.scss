@@ -1,0 +1,48 @@
+#svgLayer_1, #svgLayer_2, #svgLayer_3{
+    opacity:0;
+}
+#bodycontentWrapper{
+    opacity:0;
+} 
+#svgNameWrapper{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5%;
+    width:25%;
+    text-align:center;   
+}
+#headerLine1{
+    margin-top:1%;
+    width:100%;
+}
+#headerLine2{
+    width:100%;
+}
+#navWrapper{
+    height:6.4em;  
+}
+#work, #aboutMe, #contact{
+    display:none;
+    font-family:$Tangerine-font-family, $fallback-font-family;
+    font-size:4.5em;
+    color:#473D3D;    
+}
+#divaboutme{
+    padding:0px !important;
+}
+#aboutMe{
+    padding-left:0.45em;
+    padding-right:0.45em;   
+}
+.bcgme{
+    @include backgroundImg(bcgme, 0 0 no-repeat);
+    background-size:cover;
+}
+//-------Safari 7--------
+.svgPJheight{
+    height:50%;
+}
+.svgheaderheight{
+    height:15%;
+}

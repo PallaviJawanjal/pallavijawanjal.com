@@ -1,0 +1,35 @@
+@media only screen
+and (max-width:768px) {
+    body{
+        font-size:85%;
+    }
+}
+
+/* iphone Portrait */
+@media only screen 
+    and (min-device-width:320px) 
+    and (max-device-width:568px)
+    and (orientation:portrait) {
+    
+    #work, #aboutMe, #contact{
+        font-size:3em;
+    }
+    #aboutMe{
+    padding-left:0em !important;
+    padding-right:0em !important;   
+    }
+    #navWrapper{
+    height:5.8em;  
+    }
+    #svgNameWrapper{
+    width:50%;
+    }
+    .prjEntry, .prjtitle{
+    height:200px;
+    }
+    .youtube{
+    width:200px;
+    height:auto;
+}
+
+}

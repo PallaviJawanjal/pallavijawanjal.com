@@ -1,0 +1,28 @@
+#footerWrapper{
+    margin-top:6%;
+    margin-bottom:3%;
+}
+#copyrighttext{
+    margin-top:6%;
+    border-top:1px solid #abb5cc;
+    font-size:1.6em;
+}
+#copyrighttext a, p{
+    padding-top:1%;
+}
+#totop{
+    @include backgroundImg(bcgyellow, 0 0);
+    background-size:cover;
+    text-decoration:none;
+}
+#copyrighttext a{
+    font-family:$base-font-family, $fallback-font-family;
+    font-size:1.3em;
+}
+#copyrighttext p{
+    font-family:$Georgia-font-family $fallback-font-family;
+    color:rgba(69,54,37,0.6);
+    font-size:0.7em;
+    font-style:italic;
+    letter-spacing:0.2em; 
+}
