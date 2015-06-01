@@ -69,13 +69,14 @@ img.active{
 }
 .modal-body p{
     font-size:1.65em;
-    color:#687788
+    color:#687788;
+    margin-top:0.5em !important;
+}
+.modal-body p a{
+text-decoration: underline !important;
 }
 .modal-body {
     margin-bottom:6%;
-}
-.modal-body p{
-    margin-top:0.5em !important;
 }
 .youtube{
     width:500px;
